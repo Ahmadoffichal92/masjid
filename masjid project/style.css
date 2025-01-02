@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px  120px 14px 120px ; 
+
+    
+}
+.list{
+    margin-left: 300px;
+    /* background-color: aquamarine; */
+}
+ul,li,a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white ;
+    gap: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+button{
+    border:  1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: larger;
+   background-color:rgba(236, 172, 32, 0.952);
+}
+
+
+/* secon///////////////////////// */
+.second{
+    /* background-color: black; */
+    background-image: url(images/1.jpg);
+    display: flex;
+     width: 100%;
+     height: 100%;
+     padding: 73px 20px 120px 20px ;
+    
+    }
+
+
+.hading{
+    /* background-color: aqua; */
+    width: 50%;
+    height: 100%;
+    text-align: start; 
+    padding-left: 70px;
+    padding-top: 30px;
+    margin-left: 20px;
+    
+}
+.h1{
+ 
+    color: white;
+    font-size: 90px;
+    font-weight: lighter;
+    margin-left: 20px;
+    font-family: 'poppins';
+  
+ 
+}
+.p-1{
+    padding-top: 20px;
+    color: white;
+    font-size: 19px;
+    margin-left: 30px; 
+   
+    
+}
+
+.Contact{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 13px;
+    width: 180px ;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+/* /////////////img */
+.second-image{
+    /* background-color: black; */
+    margin-top: 50px;
+    margin-left: 145px;
+}
+
+/* About THE Masjid/////////////////////// */
+ 
+.hero-section{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.culum-1{
+    width: 50%;
+    background-color: brown;
+    display: flex ;
+    /* padding: 20px; */
+}
+.image-control{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+    text-align: end;
+
+}
+.div-image-1 img {
+    background-color: black;
+    width: 270px;
+    height: 530px;
+    margin-left: 57px;
+  
+
+}
+
+.div-image-2 img{
+    width: 270px;
+    height: 243px;
+    margin-right: 10px;
+
+}
+.image-2{
+    margin-top: 40px;
+}
+/* .culum-2////// */
+
+.culum-2{
+  background-color: blue;
+  width: 50%;
+  padding: 20px;
+  padding-right: 40px;
+
+}
+.control{
+    padding-right: 40px;
+    background-color: aqua;
+}
+.div-hading{
+    width: 100%;
+    height: 260px;
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.div-hading h3{
+font-size:55px;
+margin-top: 10px;
+}
+.div-hading p{
+    font-size: larger;
+    margin-top: 20px;
+}
+
+
+
+
+/* Our-vission-control */
+.Our-vission-control{
+    width: 100%;
+    height: 100px;
+    background-color: chartreuse;
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.Our-vission-1{
+    display: flex;
+    width: 50%;
+    text-align: start;
+}
+.img-icon img{
+
+    width: 100px;
+    height: 95px;
+}
+
+.non p{
+    font-size: 20px;
+    margin-top: 10px;
+ 
+}
+.non h4{
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+
+.rise-control{
+    background-color: burlywood;
+    width: 100%;
+    height: 110px;
+    background-color: chartreuse;
+    margin-top: 10px;
+    display: flex;
+}
+.nnn{
+    margin-top: 10px;
+    background-color: brown;
+
+
+    display: flex;
+    text-align: start;
+    
+}
+.child-img img{
+    width: 110px;
+    height: 100px;
+    border-radius: 10px;
+}
+#div-h4 p{
+    width:290px;
+    font-size: 22px;
+    margin-left: 40px;
+    
+
+
+}
+#div-h5 span{
+   color: rgb(216, 113, 76);
+    font-size: 35px;
+ margin-left: 40px;
+ margin-top: 20px;
+ 
+
+ 
+}
+.mom{
+margin-top: 20px;
+font-size: 25px;
+margin-left: 55px;
+}
+
+
+.masage-control{
+    background-color: burlywood;
+    width: 100%;
+    height: 95px;
+    background-color: chartreuse;
+    margin-top: 10px;
+    display: flex;
+justify-content: space-between;
+}
+.ctrl-masage{
+    background-color: blueviolet;
+display: flex;
+width: 100%;
+justify-content: space-between;
+margin: 12px;
+padding: 15px;
+    
+}
+.massage-1{
+width: 50%;
+background-color: rgb(34, 108, 156);
+}
+.massage-1 p{
+    margin-top: 5px;
+}
+.massage-2{
+    width: 50%;
+    background-color: rgb(2, 196, 12);
+}
+.massage-2 p{
+    margin-top: 5px;
+}
+
+ 
+    
+/* Activities...................... */
+
+.Activities{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.Activities-ctrl{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 200px;
+}
+.act{
+    text-align: center;
+    margin-top: 30px;
+}
+.act p{
+font-size: 35px;
+color: rgb(219, 216, 27);
+}
+.act h6{
+    font-size: 65px;
+    margin-top: 30px;
+}
+
+.box-ctrl{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 137, 46);
+    /* padding: 70px; */
+    padding-right: 70px;
+    padding-left: 70px;
+    
+
+
+
+}
+.ctrl-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.box-1{
+    border: 1px solid black;
+    width: 340px;
+    height: 260px;
+    display: flex;
+    padding: 15px;
+    border-radius: 30px;
+
+}
+
+.box-1-contant img{
+    width: 80px;
+    height: 80px;
+    margin-top: 70%;
+    margin-left: 10px;
+}
+.para{
+    padding:12px;
+    
+}
+.para h4{
+
+    font-size: 25px;
+}
+.para p{
+font-size: large;
+}
+#readmore{
+    margin-top: 20px;
+
+}
+
+/* ]]]]]]]]]]]]]]]]]]] */
+.loc{
+    width: 100%;
+    height: 90%;
+    background-color: aquamarine;
+    display: flex;
+/* margin-top: 15px; */
+padding: 10px;
+padding-top: 20px;
+    
+}
+
+.ctrl-loc-1{
+    width:50%;
+height: 100%;
+    background-color: blue;
+    
+
+}
+.map{
+    width: 80%;
+    height: 200px;
+    text-align: start;
+    margin-left: 120px;
+
+}
+.map h3{
+font-size: 40px;
+font-weight: 120;
+margin-top: 30px;
+    
+}
+.map iframe{
+    height: 400px;
+    margin-top: 30px;
+}
+.ctrl-loc-2{
+    width: 50%;
+    height: 100%px;
+    background-color: rgb(51, 255, 0);
+    padding: 20px;
+    
+}
+.cont{
+    width: 100%;
+    height: 100%;
+    /* text-align: start; */
+    /* display: flex; */
+    /* flex-direction: column; */
+   /* justify-content: space-between; */
+    background-color: blueviolet;
+  /* padding-right: 20px; */
+  
+}
+.cont h3{
+    font-size: 40px;
+    font-weight: 120;
+    margin-top: 10px;
+    /* background-color: aquamarine; */
+        
+    }
+    .form-1{
+        font-size: 20px;
+        margin-top: 8px;
+        width: 100%px;
+        height: 400px;
+        background-color: aqua;
+    }
+    input{
+        width: 530px;
+        height: 50px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    textarea{
+        width: 530px;
+        height: 120px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .fotter{
+        width: 100%;
+        height: 65%;
+        background-image: url(images/color-bg.jpg);
+    }
+    
+    .fotter-ctr{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 80%;
+    height: 73%;
+    background-color: blueviolet;
+    margin-left: 110px;
+    
+    
+ 
+    }
+    .fotter-ctr a{
+        color: rgb(218, 183, 30);
+        margin-top: 40px;
+      
+    
+    }
+       .foter-1{
+        margin-top: 21px;
+        font-size: 19px;
+        width: 20%;
+        background-color: black;
+     
+       }
+       .foter-1 p{
+        margin-top: 20px;
+         margin-left: 4px;
+         letter-spacing: 1px;
+
+       }
+       .foter-2{
+        width: 20%;
+        
+        background-color: black;
+        color: rgb(218, 155, 40);
+       }
+       .list-fotter-2 a{
+font-size: 20px !important;
+color: white;
+        height: 1px;
+       }
+       .foter-3{
+        background-color: aqua;
+        width: 20%;
+     
+        color: rgb(218, 155, 40);
+       }
+       .contact-list {
+/* background-color: blueviolet; */
+height: 110px;
+font-size: 18px;
+color: white;
+margin-top: 20px;
+
+       }
+       .contact-list p{
+        margin-top: 15px;
+
+
+       }
+
+       .foter-4{
+        color: rgb(218, 155, 40);
+        width: 25%;
+        background-color: aqua;
+        /* display: flex; */
+       }
+
+       .foter-icon a{
+        width: 90%;
+        height: 40px;
+        background-color: rgb(142, 35, 241);
+        color: beige;
+        
+        
+    
+       }
+      
+      
+       .icon-1  {
+        color: azure;
+        width: 100%;
+        height: 20px;
+        background-color: rgb(30, 15, 168);
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        gap: 20px;
+       }
+       .icon-2{
+        color: azure;
+        width: 100%;
+        height: 40px;
+        gap: 20px;
+        background-color: blueviolet;
+        display: flex;
+        justify-content: space-between;
+       }
+
+       .btn-ctrl{
+        background-color: rgb(31, 194, 58);
+        display: flex;
+        justify-content: space-between;
+
+       }
+       .btn-1{
+   
+
+
+
+       }
+       .btn-2{
+        width: 150px;
+        height: 50px;
+ background-color: azure;
+       }
+       .footer-bottom{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 20px;
+        color: white;
+        font-weight: lighter;
+       }
